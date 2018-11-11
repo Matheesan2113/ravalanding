@@ -1,1 +1,1 @@
-# Repo for QHacks Landing Page
+# Repo for Rava Hacks Landing Page

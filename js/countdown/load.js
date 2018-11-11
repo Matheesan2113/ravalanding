@@ -28,10 +28,10 @@ function getTimeRemainingForCountdown(){
 }
 function getTimeTillStartForCountdown(){
 	var now = new Date();
-	var startOfQHacks = new Date(2017, 1, 3, 18, 0);
+	var startOfRavaHacks = new Date(2017, 1, 3, 18, 0);
 
 
-	var delta = Math.abs(startOfQHacks - now) / 1000;
+	var delta = Math.abs(startOfRavaHacks - now) / 1000;
 
 	var days = Math.floor(delta / 86400);
 	delta -= days * 86400;
@@ -56,7 +56,7 @@ function getTimeTillStartForCountdown(){
 }
 $(document).ready(function(){
 	setTimeout(function(){
-		$(".countdown-remaining-text").html("Till QHacks starts!");
+		$(".countdown-remaining-text").html("Till Rava Hacks starts!");
 	}, 1000);
 	setInterval(function(){
 		$(".countdown-time").html(getTimeTillStartForCountdown());
